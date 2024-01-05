@@ -1,0 +1,17 @@
+.news-price {
+  color: #f00;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 7px 0 2px;
+}
+.news-noprice {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 7px;
+  text-decoration: line-through;}
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

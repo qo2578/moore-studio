@@ -1,13 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Gilroy", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container {
+  width: 100%;
+  max-width: 1200px; /* Максимальная ширина вашего контейнера, если нужно */
+  margin: 0 auto; /* Центрирование контейнера, если нужно */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #f8faff;
+}
+.text-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.text-link {
+  color: #3186c3;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.bestsellers-box {
+  white-space: nowrap;
+  overflow-x: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.news {
+  padding: 50px 0 0;
+}
+.news-box {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  padding: 18px 0;
+  justify-content: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.action {
+  padding-top: 30px;
+}
+.addresses {
+  padding: 50px 0 66px;
 }

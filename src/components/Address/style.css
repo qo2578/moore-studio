@@ -1,0 +1,80 @@
+.card {
+  width: 408px;
+  height: 179px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+}
+.cards-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+}
+.top-left {
+  display: flex;
+  gap: 10px;
+}
+.top-left p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+.top-left a {
+  color: #0062d5;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.top-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-right {
+  margin-top: 18px;
+}
+.card-line {
+  width: 378px;
+  height: 1px;
+  background: #e3e3e3;
+  margin: 13px 0 21px;
+}
+.bottom-top {
+  gap: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.bottom-top p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  width: 144px;
+}
+.bottom-top img {
+  margin-top: 3px;
+}
+.bottom-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.bottom-left {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.bottom-right {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
