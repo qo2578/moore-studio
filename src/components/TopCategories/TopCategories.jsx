@@ -1,6 +1,11 @@
 import React from 'react'
 import './style.css';
 import photo1 from '../../images/categories/photo1.png'
+import photo2 from '../../images/categories/photo2.png'
+import photo3 from '../../images/categories/photo3.png'
+import photo4 from '../../images/categories/photo4.png'
+import photo5 from '../../images/categories/photo5.png'
+import photo from '../../images/categories/photo.png'
 
 
 
@@ -11,60 +16,60 @@ const TopCategories = () => {
       text: 'Скидки',
     },
     {
-      image: photo1,
-      text: 'Скидки',
-    },
-    {
-      image: photo1,
+      image: photo2,
       text: 'Акции',
     },
     {
-      image: photo1,
+      image: photo3,
       text: 'Распродажа',
     },
     {
-      image: photo1,
+      image: photo4,
       text: 'Подарки',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo5,
+      text: 'Подарки',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
     },
     {
-      image: photo1,
-      text: 'Скидки',
+      image: photo,
+      text: 'Другое',
+    },
+    {
+      image: photo,
+      text: 'Другое',
     },
 
   ];
