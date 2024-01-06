@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import "./index.css";
 import img1 from "../src/images/bestsellers/img1.png";
 import banner from "../src/images/news/banner.svg";
-
+import banner1 from "../src/images/news/banner1.svg";
 import React from "react";
 
 const App = () => {
@@ -115,7 +115,7 @@ const App = () => {
               <img src={banner} alt="" />
             </a>
             <a href="" className="news-link">
-              <img src={banner} alt="" />
+              <img src={banner1} alt="" />
             </a>
           </div>
         </section>

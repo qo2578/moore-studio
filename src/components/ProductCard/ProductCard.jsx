@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
 import ellipse from '../../images/bestsellers/ellipse.svg'
+import heart from '../../images/bestsellers/heart.svg'
+import heartOn from '../../images/bestsellers/heart-on.svg'
+import minus from '../../images/bestsellers/minus.svg'
+import plus from '../../images/bestsellers/plus.svg'
 
 
 const ProductCard = ({ product }) => {
@@ -25,7 +29,11 @@ const ProductCard = ({ product }) => {
       <div className="product-image">
         <img src={product.image} alt="Product" />
         <button className={`like-button ${like ? 'liked' : ''}`} onClick={handleLikeClick}>
-          ❤
+          {like ? (
+            <img width={16} height={16} src={heartOn} alt="" />
+          ) : (
+            <img width={16} height={16} src={heart} alt="" />
+          )}
         </button>
       </div>
       <div className="product-details">
@@ -37,9 +45,13 @@ const ProductCard = ({ product }) => {
           <p>Комплект</p>
         </div>
         <div className="quantity-counter">
-          <button onClick={handleDecrement}>-</button>
+          <button className="quantity-counter-btn" onClick={handleDecrement}>
+          <img width={24} height={24} src={minus} alt="" />
+          </button>
           <p>{quantity}</p>
-          <button onClick={handleIncrement}>+</button>
+          <button className="quantity-counter-btn" onClick={handleIncrement}>
+          <img width={24} height={24} src={plus} alt="" />
+          </button>
         </div>
       </div>
     </div>

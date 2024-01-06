@@ -74,14 +74,14 @@ const TopCategories = () => {
 
   ];
   return (
-    <div className='top-categories'>
+    <a href='' className='top-categories'>
       {topCategoriesData.map((data, index) => (
         <div key={index} className='top-categories-box'>
           <img src={data.image} alt={`Изображение ${index + 1}`} />
           <p>{data.text}</p>
         </div>
       ))}
-    </div>
+    </a>
 
   )
 }

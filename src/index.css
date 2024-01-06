@@ -22,6 +22,9 @@ code {
 html {
   background: #f8faff;
 }
+button{
+  cursor: pointer;
+}
 .text-box {
   display: flex;
   justify-content: space-between;

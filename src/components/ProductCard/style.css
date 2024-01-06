@@ -53,10 +53,35 @@
   height: 13px;
   flex-shrink: 0;
 }
-.quantity-counter button {
-  width: 33px;
-  height: 33px;
+.quantity-counter-btn {
+  padding: 3px 3px 0;
   flex-shrink: 0;
+  border: none;
   border-radius: 82.912px;
   background: #f5f5f5;
+}
+.quantity-counter-btn:hover {
+  background: #3286c3;
+}
+.quantity-counter-btn:hover img {
+  filter: invert(100%); /* Инвертируем цвет при наведении */
+}
+
+.like-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 3.709px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Transparent-white, rgba(255, 255, 255, 0.5));
+}
+.product-image {
+  position: relative;
 }
