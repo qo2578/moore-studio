@@ -79,3 +79,15 @@ footer {
   flex-direction: row;
   gap: 15px;
 }
+
+@media only screen and (max-width: 767px) {
+
+  .footer-col {
+ display: none;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .footer-col.one{
+    display: none;
+   }
+}

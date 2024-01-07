@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-right">
-          <div className="footer-col">
+          <div className="footer-col one">
             <h3>Адреса</h3>
             <div className="footer-col-box">
               ЭлитСтрой

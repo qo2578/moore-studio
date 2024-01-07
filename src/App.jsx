@@ -75,9 +75,8 @@ const App = () => {
   ];
 
   return (
-    <body>
+    <div className="home-page">
       <Header />
-      <main>
         <section>
           {" "}
           <TopCategories />
@@ -141,9 +140,9 @@ const App = () => {
           </div>
               <Address />
         </section>
-      </main>
+ 
       <Footer/>
-    </body>
+    </div>
   );
 };
 
