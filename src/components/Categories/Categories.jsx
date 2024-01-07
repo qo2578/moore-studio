@@ -73,7 +73,7 @@ const Categories = () => {
   ];
   return (
     <div className="categories">
-      <h2 className="title">Категории</h2>
+      <h2 className="categories-title">Категории</h2>
       <a href="" className="categories-box">
         {categoriesData.map((item, index) => (
           <div key={index} className="categories-block">
