@@ -1,0 +1,98 @@
+
+@media only screen and (max-width: 767px) {
+
+    .burger-menu {
+        position: fixed;
+        top: 0;
+        right: -80%; /* Начнем за пределами экрана */
+        width: 80%;
+        height: 100vh;
+        background-color: #2d82be;
+        transition: right 0.3s ease-in-out;
+      }
+      
+      .burger-menu.open {
+        right: 0;
+      }
+      
+      .burger-icon {
+        cursor: pointer;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+        width: 30px;
+      }
+      
+      .bar {
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+      }
+      
+      .menu-items {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      
+      .menu-items a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      /* Дополнительные стили, если необходимо */
+      
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+    .burger-menu {
+        position: fixed;
+        top: 0;
+        right: -80%; /* Начнем за пределами экрана */
+        width: 80%;
+        height: 100vh;
+        background-color: #2d82be;
+        transition: right 0.3s ease-in-out;
+      }
+      
+      .burger-menu.open {
+        right: 0;
+      }
+      
+      .burger-icon {
+        cursor: pointer;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+        width: 30px;
+      }
+      
+      .bar {
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+      }
+      
+      .menu-items {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      
+      .menu-items a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      /* Дополнительные стили, если необходимо */
+      
+  }

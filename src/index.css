@@ -1,26 +1,24 @@
-body {
-  margin: 0;
-  font-family: "Gilroy", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-.container {
-  width: 100%;
-  max-width: 1200px; /* Максимальная ширина вашего контейнера, если нужно */
-  margin: 0 auto; /* Центрирование контейнера, если нужно */
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Gilroy", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 html {
   background: #f8faff;
+}
+section {
+  max-width: 1200px;
+  min-width: 100%; 
+  margin: 0 auto; 
 }
 button{
   cursor: pointer;
@@ -29,7 +27,6 @@ button{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
 }
 .text-link {
   color: #3186c3;
@@ -43,6 +40,7 @@ button{
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 .news {
   padding: 50px 0 0;
